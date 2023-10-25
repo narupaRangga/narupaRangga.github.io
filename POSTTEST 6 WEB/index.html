@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naw! Koss</title>
+    <script src="https://kit.fontawesome.com/ff12ab536a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <!--Header-->
+    <div class="Header">
+        <div class="container">
+        <!-- Navbar -->
+        <nav>
+            <div class="logo">
+                <img class="rounded circle" src="logo kos.png" alt="logo kos">
+            </div>
+            <div class="nav-items">
+                <a href="index.html"> Naw! Home</a>
+                <a href="about me.html">About Me</a>
+                <a href="create.php">Naw!peng</a>
+                <img src="moon.png" id="icon">
+            </div>
+        </nav>
+        </div>
+    </div>
+    <!--End Header-->
+    <table>
+        
+        <tr>
+            <th><img width="400px" src="6.png" alt=""></th>
+            <th><img width="500px" src="3.jpg" alt=""></th>
+            <th><img width="380px" src="4.jpg" alt=""></th>
+
+        </tr>
+
+    </table>
+
+    
+    <div class="t">
+     <center><h1>Naw!Koss</h1></center>
+     <br>
+     <center><p> Naw!Koss Menyediakan banyak jenis kamar dengan ukuran yang beragam, bukan hanya itu naw!koss juga menawarkan harga yang relatif
+        murah dan pastinya bersahabat dengan mahasiswa.  </p></center>
+    </div>
+        
+    <div class="footer">
+        <div class="copyright">
+            <p>copyright <i class="fa-regular fa-copyright"></i> Narupa Rangga Goroguta 2023</p>
+        </div>
+    </div>
+
+<script>
+
+    var icon = document.getElementById("icon");
+
+    icon.onclick = function(){
+        document.body.classList.toggle("dark-mode");
+        if(document.body.classList.contains("dark-mode")){
+            icon.src = "moon.png";
+        }else{
+            icon.src = "moon.png";
+        }
+    }
+</script>
+
+<!-- <script>
+     closeAlert.addEventListener("click", () => {
+        alertContainer.style.display = "none";
+    });
+
+    function showAlert(title, message) {
+        alertMessage.innerHTML = `<strong>${title}</strong><br>${message}`;
+        alertContainer.style.display = "block";
+    }
+
+    const notificationItem = document.getElementById("notificationItem");
+
+    notificationItem.addEventListener("click", function () {
+        showNotification("Anda memiliki pesan baru!");
+    });
+
+    function showNotification(message) {
+        const notification = document.createElement("div");
+        notification.className = "notification-popup";
+        notification.textContent = message;
+        document.body.appendChild(notification);
+    }
+
+    setTimeout(function () {
+            document.body.removeChild(notification);
+        }, 3000); 
+ 
+
+</script> -->
+
+</body>
+</html>

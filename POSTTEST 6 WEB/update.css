@@ -1,0 +1,35 @@
+.update{
+    height: 100vh;
+    background-color: #FDE5ED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.up-form-container {
+    background-color: white;
+    padding: 64px;
+    border-radius: 32px;
+}
+
+.up-form-container h1 {
+    text-align: center;
+}
+
+.up-form-container hr {
+    border: 2px solid #b468b8;
+    margin-bottom: 24px;
+}
+
+.up-form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.up-form-container label{
+    margin: 5px;
+}
+
+.up-form-container input{
+    margin: 4px;
+}
