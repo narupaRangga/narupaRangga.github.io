@@ -1,0 +1,42 @@
+body {
+    background: #f5c8f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    width: 450px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 500px;
+    text-align: center;
+    margin-right: 200px;
+}
+
+td {
+     display: block;
+    border: 2px solid #ccc;
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+tr {
+    color: #000000;
+    font-size: 18px;
+    padding: 15px; 
+    margin-left: 50px;
+
+}
+

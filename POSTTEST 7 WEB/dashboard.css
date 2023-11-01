@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FDE5ED;
+}
+
+.logo{
+    background-color: #b468b8;
+    padding: 30px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.add-btn{
+    margin: 10px;
+    padding: 10px 20px;
+    float: inline-end;
+    background-color: pink;
+    border: none;
+    border-radius: 12px;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+}
+
+thead{
+    background-color: #b468b8;
+    padding: 10px;
+}
+
+th{
+    padding: 20px;
+}
+
+.edit-btn{
+    padding: 10px;
+    background-color: pink;
+    border: none;
+    border-radius: 12px;
+}
+
+.delete-btn{
+    padding: 10px;
+    background-color: #b468b8;
+    border: none;
+    border-radius: 12px;
+}
+
+.note{
+    background-color: pink;
+    width: 480px;
+    margin-bottom: 5px;
+    border-radius: 12px;
+    padding: 8px;
+}
+
+p{
+    margin-top: 5px;
+}
